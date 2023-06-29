@@ -1,0 +1,82 @@
+/* Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
+
+Imágenes en Unsplash: https://unsplash.com/@xps
+Logo Dell: https://worldvectorlogo.com/logo/dell-1
+
+*/
+
+
+#contenedor
+{
+    background: #2b2f40;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.imagen
+{
+    height: 60px;
+
+}
+h1 ,p , label
+
+{
+    margin: 0;
+    color: #ffffff;
+}
+input
+{
+    background-color: #1E2126 ;
+}
+input:hover
+{
+    
+    color: #ffffff;
+}
+.btn
+{
+    color: #cca876;
+    border-color: #cca876;
+}
+
+.btn:hover {
+    color: #cca876;
+    border-color: #cca876;
+}
+
+.btn:focus
+{
+    color: white;
+    background-color:  #cca876;
+}
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url('../../assets/image/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('../../assets/image/imagen1.jpg');
+    background-size: cover;
+    background-position: center;
+}
